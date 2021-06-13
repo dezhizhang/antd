@@ -127,7 +127,7 @@ export function getRoutes() {
             "exact": true,
             "meta": {
               "filePath": "src/components/index.md",
-              "updatedTime": 1623579055007,
+              "updatedTime": 1623582891000,
               "title": "业务组件",
               "sidemenu": false,
               "slugs": [
@@ -238,13 +238,6 @@ export function getRoutes() {
         "icon": "table",
         "path": "/list",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TableList' */'/Users/apple/Documents/study/antd/src/pages/TableList'), loading: LoadingComponent}),
-        "exact": true
-      },
-      {
-        "name": "按钮",
-        "icon": "table",
-        "path": "/button",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TableList' */'/Users/apple/Documents/study/antd/src/pages/ButtonPage'), loading: LoadingComponent}),
         "exact": true
       },
       {
