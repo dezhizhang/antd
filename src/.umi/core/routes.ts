@@ -241,6 +241,13 @@ export function getRoutes() {
         "exact": true
       },
       {
+        "name": "按钮",
+        "icon": "table",
+        "path": "/button",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ButtonPage' */'/Users/apple/Documents/study/antd/src/pages/ButtonPage'), loading: LoadingComponent}),
+        "exact": true
+      },
+      {
         "path": "/",
         "redirect": "/welcome",
         "exact": true
