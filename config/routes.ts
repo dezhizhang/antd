@@ -4,7 +4,7 @@
  * :author: 张德志
  * :date created: 2021-06-13 19:13:11
  * :last editor: 张德志
- * :date last edited: 2021-06-14 09:31:41
+ * :date last edited: 2021-06-14 10:00:13
  */
 export default [
   {
@@ -40,6 +40,12 @@ export default [
     icon: 'table',
     path: '/icon',
     component: './IconPage',
+  },
+  {
+    name:'图标',
+    icon: '排版',
+    path: '/typography',
+    component: './TypographyPage',
   },
   {
     path: '/',

@@ -232,6 +232,13 @@ export function getRoutes() {
         "exact": true
       },
       {
+        "name": "图标",
+        "icon": "排版",
+        "path": "/typography",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TypographyPage' */'/Users/apple/Documents/study/antd/src/pages/TypographyPage'), loading: LoadingComponent}),
+        "exact": true
+      },
+      {
         "path": "/",
         "redirect": "/welcome",
         "exact": true
