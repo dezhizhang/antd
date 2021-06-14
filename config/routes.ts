@@ -4,7 +4,7 @@
  * :author: 张德志
  * :date created: 2021-06-13 19:13:11
  * :last editor: 张德志
- * :date last edited: 2021-06-14 09:17:05
+ * :date last edited: 2021-06-14 09:31:41
  */
 export default [
   {
@@ -30,31 +30,16 @@ export default [
     component: './Welcome',
   },
   {
-    path: '/admin',
-    name: 'admin',
-    icon: 'crown',
-    access: 'canAdmin',
-    component: './Admin',
-    routes: [
-      {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        icon: 'smile',
-        component: './Welcome',
-      },
-    ],
-  },
-  {
-    name: 'list.table-list',
-    icon: 'table',
-    path: '/list',
-    component: './TableList',
-  },
-  {
     name:'按钮',
     icon: 'table',
     path: '/button',
     component: './ButtonPage',
+  },
+  {
+    name:'图标',
+    icon: 'table',
+    path: '/icon',
+    component: './IconPage',
   },
   {
     path: '/',

@@ -218,33 +218,17 @@ export function getRoutes() {
         "exact": true
       },
       {
-        "path": "/admin",
-        "name": "admin",
-        "icon": "crown",
-        "access": "canAdmin",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__Admin' */'/Users/apple/Documents/study/antd/src/pages/Admin'), loading: LoadingComponent}),
-        "routes": [
-          {
-            "path": "/admin/sub-page",
-            "name": "sub-page",
-            "icon": "smile",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__Welcome' */'/Users/apple/Documents/study/antd/src/pages/Welcome'), loading: LoadingComponent}),
-            "exact": true
-          }
-        ]
-      },
-      {
-        "name": "list.table-list",
-        "icon": "table",
-        "path": "/list",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TableList' */'/Users/apple/Documents/study/antd/src/pages/TableList'), loading: LoadingComponent}),
-        "exact": true
-      },
-      {
         "name": "按钮",
         "icon": "table",
         "path": "/button",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ButtonPage' */'/Users/apple/Documents/study/antd/src/pages/ButtonPage'), loading: LoadingComponent}),
+        "exact": true
+      },
+      {
+        "name": "图标",
+        "icon": "table",
+        "path": "/icon",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__IconPage' */'/Users/apple/Documents/study/antd/src/pages/IconPage'), loading: LoadingComponent}),
         "exact": true
       },
       {
